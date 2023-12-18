@@ -1,0 +1,89 @@
+html, body{
+    font-family: Arial, Helvetica, sans-serif;
+    height: 100%;
+    width: 100%;
+    margin: 0%;
+}
+
+.grid-container{
+    display: grid;
+    gap: 1%;
+    grid-template-columns: 10vw 10vw 10vw 20vw 50vw;
+    grid-template-rows: 10vh 60vh 30vh;
+    background-color: white;
+}
+
+.grid-item{
+    background-color: white;
+    text-align: center;
+    padding: 20px;
+    font-size: 30px;
+}
+
+.item1, .item3, .item4{
+    grid-column: 1 / span 4;
+    text-align: left;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+.item1{
+    grid-row: 1;
+}
+
+.item2{
+    grid-column: 5;
+    grid-row: 1 / span 3;
+    background-color: #c62146;
+    align-items: center;
+}
+
+.item3{
+    grid-row: 2;
+    margin-top: 2%;
+}
+
+.item4{
+    grid-row: 3;
+}
+
+#iphone{
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 45%;
+}
+
+#logo{
+    width: 40px;
+    margin-top: auto;
+    margin-right: auto;
+}
+
+#p-item3{
+    font-size: 16px;
+}
+
+#buttonIOS{
+    border: 0;
+    background-color: transparent;
+}
+
+#buttonAndroid{
+    border: 0;
+    background-color: transparent;
+}
+
+.button{
+    border: none;
+    background-color: transparent;
+}
+
+.button :hover{
+    cursor: pointer;
+}
+
+.grid p{
+    color: green;
+}
+
