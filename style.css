@@ -83,7 +83,12 @@ html, body{
     cursor: pointer;
 }
 
-.grid p{
-    color: green;
+/* Animations */
+
+/* (1) Images draaien */
+
+img:hover {
+    transform: rotate(180deg);
+    transition: transform 0.2s ease-in-out;
 }
 
