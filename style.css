@@ -92,3 +92,16 @@ img:hover {
     transition: transform 0.2s ease-in-out;
 }
 
+/* (2) Veranderd kleur bij hover */
+#p-item3:hover{
+    color: #FF00FF;
+}
+
+#h4-item3:hover{
+    color: #00FF00;
+}
+
+#p-item4:hover{
+    color: #FF0000;
+}
+
